@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Yury Oropeza</h1>
 <h3 align="center">Developer passionate, AI whisperer & Technical Visionary</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yuorve" alt="yuorve" /></a> </p>
-
 - 👨‍💻 All of my projects are available at [https://yuryoropeza.com](https://yuryoropeza.com)
 
 - 📫 How to reach me **yuorve@gmail.com**
