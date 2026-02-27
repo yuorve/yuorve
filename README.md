@@ -41,7 +41,9 @@ Developer passionate, AI whisperer & Technical Visionary
 
 ## GitHub Stats
 
+<div style="display: flex; justify-content: center;">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=yuorve&theme=default" alt="GitHub Streak" />
+</div>
 
 ## GitHub Activity Graph
 
