@@ -45,10 +45,10 @@ Developer passionate, AI whisperer & Technical Visionary
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=yuorve&theme=default" alt="GitHub Streak" />
 </p>
 
-## GitHub Activity Graph
+## GitHub Activity
 
 <p align="center">
-![DEV_REX](dev_rex.svg)
+[![DEV_REX](https://yuorve.github.io/yuorve)](https://yuorve.github.io/yuorve)
 </p>
 
 <!--
