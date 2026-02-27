@@ -48,7 +48,7 @@ Developer passionate, AI whisperer & Technical Visionary
 ## GitHub Activity
 
 <p align="center">
-🔗 [https://yuorve.github.io/yuorve](https://yuorve.github.io/yuorve)
+![DEV_REX](https://yuorve.github.io/yuorve)
 </p>
 
 <!--
