@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="900" height="450" viewBox="0 0 900 450">
+  <defs>
+    <radialGradient id="bgGrad" cx="25%" cy="70%" r="75%">
+      <stop offset="0%" stop-color="#0b2418"/>
+      <stop offset="55%" stop-color="#030d18"/>
+      <stop offset="100%" stop-color="#020810"/>
+    </radialGradient>
+
+    <filter id="dinoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur1"/>
+      <feFlood flood-color="#00ff88" flood-opacity="0.45" result="color"/>
+      <feComposite in="color" in2="blur1" operator="in" result="colorGlow"/>
+      <feMerge>
+        <feMergeNode in="colorGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="titleGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#00ff88" flood-opacity="0.6" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="winGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#00ff88" flood-opacity="0.3" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="statGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#00ff88" flood-opacity="0.5" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent"/>
+      <stop offset="50%" stop-color="#00ff88"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </linearGradient>
+
+    <clipPath id="bannerClip">
+      <rect x="0" y="0" width="900" height="450" rx="14" ry="14"/>
+    </clipPath>
+
+    <style>
+      .dino-wrap   { animation: dinoFloat 3.4s ease-in-out infinite; transform-origin: 165px 445px; }
+      .main-title  { animation: titleGlowAnim 2.4s ease-in-out infinite alternate; }
+      .ground-glow { animation: groundPulse 2.8s ease-in-out infinite; transform-origin: 180px 443px; }
+      .scanline    { animation: scanMove 5.5s linear infinite; }
+      .code-win    { animation: winPulse 4.5s ease-in-out infinite; }
+      .cursor-blink{ animation: blink 1s step-end infinite; }
+      .stat-1 { animation: statPop 0.5s ease 0.3s backwards; }
+      .stat-2 { animation: statPop 0.5s ease 0.5s backwards; }
+      .stat-3 { animation: statPop 0.5s ease 0.7s backwards; }
+
+      @keyframes dinoFloat {
+        0%, 100% { transform: translateY(0px)   rotate(-0.6deg); }
+        50%       { transform: translateY(-12px) rotate(0.6deg); }
+      }
+      @keyframes titleGlowAnim {
+        from { filter: drop-shadow(0 0 16px #00ff88) drop-shadow(0 0 32px #00ff8855); }
+        to   { filter: drop-shadow(0 0 30px #00ff88) drop-shadow(0 0 60px #00ff88aa); }
+      }
+      @keyframes groundPulse {
+        0%, 100% { transform: scaleX(1);    opacity: 0.55; }
+        50%       { transform: scaleX(1.12); opacity: 1;    }
+      }
+      @keyframes scanMove {
+        0%   { transform: translateY(0px);   }
+        100% { transform: translateY(450px); }
+      }
+      @keyframes winPulse {
+        0%, 100% { opacity: 0.88; }
+        50%       { opacity: 1;    }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+      @keyframes statPop {
+        from { transform: scale(0); opacity: 0; }
+        to   { transform: scale(1); opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#bannerClip)">
+
+    <!-- BACKGROUND -->
+    <rect width="900" height="450" fill="url(#bgGrad)"/>
+
+    <!-- MATRIX RAIN -->
+    <g opacity="0.13" font-family="'Courier New', monospace" font-size="12" fill="#00ff88" letter-spacing="3">
+      <text x="558"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01アウ01カ01ケコ01ス01タ01ヌ01ン01ア<animate attributeName="y" from="-200" to="560" dur="7.3s" repeatCount="indefinite" begin="0.5s"/></text>
+      <text x="577"  writing-mode="vertical-rl" text-orientation="upright" y="-200">イエキセチネヘメヤレンアウオクテナ<animate attributeName="y" from="-200" to="560" dur="9.1s" repeatCount="indefinite" begin="2.1s"/></text>
+      <text x="596"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01カ01ソ01ツ01ニ01フ01ミ01リ01ン<animate attributeName="y" from="-200" to="560" dur="6.8s" repeatCount="indefinite" begin="4.3s"/></text>
+      <text x="615"  writing-mode="vertical-rl" text-orientation="upright" y="-200">アイウエオカキクケコサシスセソタ<animate attributeName="y" from="-200" to="560" dur="8.2s" repeatCount="indefinite" begin="1.0s"/></text>
+      <text x="634"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01チ01ノ01ヨ01ス01コ01ソ01テ<animate attributeName="y" from="-200" to="560" dur="5.9s" repeatCount="indefinite" begin="3.7s"/></text>
+      <text x="653"  writing-mode="vertical-rl" text-orientation="upright" y="-200">タチツテトナニヌネノハヒフへホ<animate attributeName="y" from="-200" to="560" dur="10.4s" repeatCount="indefinite" begin="0.8s"/></text>
+      <text x="672"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01ア01ケ01シ01テ01ニ01ヒ<animate attributeName="y" from="-200" to="560" dur="7.6s" repeatCount="indefinite" begin="5.2s"/></text>
+      <text x="691"  writing-mode="vertical-rl" text-orientation="upright" y="-200">マミムメモヤユヨラリルレロワン<animate attributeName="y" from="-200" to="560" dur="8.9s" repeatCount="indefinite" begin="1.5s"/></text>
+      <text x="710"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01ク01ス01ツ01ネ01ヒ01ム<animate attributeName="y" from="-200" to="560" dur="6.3s" repeatCount="indefinite" begin="6.1s"/></text>
+      <text x="729"  writing-mode="vertical-rl" text-orientation="upright" y="-200">アイウエオカキクケコサシスセソ<animate attributeName="y" from="-200" to="560" dur="9.7s" repeatCount="indefinite" begin="2.9s"/></text>
+      <text x="748"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01ア01イ01ウ01エ01オ01カ<animate attributeName="y" from="-200" to="560" dur="7.1s" repeatCount="indefinite" begin="0.3s"/></text>
+      <text x="767"  writing-mode="vertical-rl" text-orientation="upright" y="-200">キクケコサシスセソタチツテトナ<animate attributeName="y" from="-200" to="560" dur="8.5s" repeatCount="indefinite" begin="4.8s"/></text>
+      <text x="786"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01ニ01ヌ01ネ01ノ01ハ01ヒ<animate attributeName="y" from="-200" to="560" dur="5.7s" repeatCount="indefinite" begin="7.2s"/></text>
+      <text x="805"  writing-mode="vertical-rl" text-orientation="upright" y="-200">フヘホマミムメモヤユヨラリルレ<animate attributeName="y" from="-200" to="560" dur="11.2s" repeatCount="indefinite" begin="1.8s"/></text>
+      <text x="824"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01ロ01ワ01ン01ア01イ01ウ<animate attributeName="y" from="-200" to="560" dur="7.8s" repeatCount="indefinite" begin="3.4s"/></text>
+      <text x="843"  writing-mode="vertical-rl" text-orientation="upright" y="-200">エオカキクケコサシスセソタチツ<animate attributeName="y" from="-200" to="560" dur="9.3s" repeatCount="indefinite" begin="5.9s"/></text>
+      <text x="862"  writing-mode="vertical-rl" text-orientation="upright" y="-200">01テ01ト01ナ01ニ01ヌ01ネ<animate attributeName="y" from="-200" to="560" dur="6.6s" repeatCount="indefinite" begin="0.1s"/></text>
+      <text x="881"  writing-mode="vertical-rl" text-orientation="upright" y="-200">ノハヒフヘホマミムメモヤユヨラ<animate attributeName="y" from="-200" to="560" dur="8.0s" repeatCount="indefinite" begin="2.6s"/></text>
+    </g>
+
+    <!-- CIRCUIT LINES -->
+    <g stroke="#00ff88" stroke-width="1" fill="none" opacity="0.18" stroke-dasharray="6,3">
+      <path d="M0 185 L90 185 L90 140 L170 140"/>
+      <path d="M0 300 L70 300 L70 322 L130 322 L130 352"/>
+      <path d="M220 450 L220 375 L268 375"/>
+      <circle cx="90"  cy="140" r="4" fill="#00ff88" stroke="none"/>
+      <circle cx="70"  cy="300" r="4" fill="#00ff88" stroke="none"/>
+      <circle cx="130" cy="322" r="4" fill="#00ff88" stroke="none"/>
+    </g>
+
+    <!-- GROUND GLOW -->
+    <ellipse class="ground-glow" cx="180" cy="443" rx="180" ry="14" fill="#00ff8855"/>
+
+    <!-- DINO — archivo externo dino.png (debe estar en la misma carpeta) -->
+    <g class="dino-wrap">
+      <image href="dino.png"
+             x="-10" y="70" width="350" height="380"
+             filter="url(#dinoGlow)" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+
+    <!-- FLOATING CODE PARTICLES -->
+    <g font-family="'Courier New', monospace" font-weight="bold">
+      <text font-size="11" fill="#00ffcc" x="265" y="200" opacity="0"><animate attributeName="x" from="265" to="620" dur="3.1s" repeatCount="indefinite" begin="0s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="3.1s" repeatCount="indefinite" begin="0s"/>git push</text>
+      <text font-size="12" fill="#aaffdd" x="265" y="218" opacity="0"><animate attributeName="x" from="265" to="620" dur="2.8s" repeatCount="indefinite" begin="0.38s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="2.8s" repeatCount="indefinite" begin="0.38s"/>function()</text>
+      <text font-size="10" fill="#00ffcc" x="265" y="236" opacity="0"><animate attributeName="x" from="265" to="620" dur="3.4s" repeatCount="indefinite" begin="0.76s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="3.4s" repeatCount="indefinite" begin="0.76s"/>var {}</text>
+      <text font-size="13" fill="#aaffdd" x="265" y="254" opacity="0"><animate attributeName="x" from="265" to="620" dur="2.5s" repeatCount="indefinite" begin="1.14s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="2.5s" repeatCount="indefinite" begin="1.14s">&lt;/&gt;</text>
+      <text font-size="11" fill="#00ffcc" x="265" y="272" opacity="0"><animate attributeName="x" from="265" to="620" dur="3.2s" repeatCount="indefinite" begin="1.52s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="3.2s" repeatCount="indefinite" begin="1.52s"/>$ commit</text>
+      <text font-size="10" fill="#aaffdd" x="265" y="290" opacity="0"><animate attributeName="x" from="265" to="620" dur="2.9s" repeatCount="indefinite" begin="1.9s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="2.9s" repeatCount="indefinite" begin="1.9s"/>push origin</text>
+      <text font-size="11" fill="#00ffcc" x="265" y="308" opacity="0"><animate attributeName="x" from="265" to="620" dur="3.6s" repeatCount="indefinite" begin="2.28s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="3.6s" repeatCount="indefinite" begin="2.28s"/>repo.init()</text>
+      <text font-size="9"  fill="#aaffdd" x="265" y="326" opacity="0"><animate attributeName="x" from="265" to="620" dur="2.6s" repeatCount="indefinite" begin="2.66s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="2.6s" repeatCount="indefinite" begin="2.66s"/>git status</text>
+      <text font-size="12" fill="#00ffcc" x="265" y="344" opacity="0"><animate attributeName="x" from="265" to="620" dur="3.0s" repeatCount="indefinite" begin="3.04s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="3.0s" repeatCount="indefinite" begin="3.04s"/>npm i</text>
+      <text font-size="11" fill="#aaffdd" x="265" y="362" opacity="0"><animate attributeName="x" from="265" to="620" dur="2.7s" repeatCount="indefinite" begin="3.42s"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.8;1" dur="2.7s" repeatCount="indefinite" begin="3.42s"/>merge()</text>
+    </g>
+
+    <!-- CODE WINDOW -->
+    <g class="code-win" filter="url(#winGlow)">
+      <rect x="626" y="20" width="248" height="215" rx="8" ry="8" fill="rgba(1,8,18,0.94)" stroke="#00ff88" stroke-width="1.5"/>
+      <rect x="626" y="20" width="248" height="24"  rx="8" ry="8" fill="#00ff88"/>
+      <rect x="626" y="32" width="248" height="12"  fill="#00ff88"/>
+      <text x="636" y="37" font-family="'Courier New', monospace" font-size="9.5" font-weight="900" fill="#020d10" letter-spacing="2.5">CODE SOURCE</text>
+      <circle cx="856" cy="32" r="4" fill="#020d10" opacity="0.4"/>
+      <circle cx="845" cy="32" r="4" fill="#020d10" opacity="0.4"/>
+      <circle cx="834" cy="32" r="4" fill="#020d10" opacity="0.4"/>
+      <g font-family="'Courier New', monospace" font-size="9.5">
+        <text x="637" y="60"  fill="#00ff88">DEV_REX</text><text x="691" y="60"  fill="#445566"> {</text>
+        <text x="648" y="77"  fill="#d988ff">var</text><text x="668" y="77" fill="#00ccff"> function</text><text x="726" y="77" fill="#445566">() {</text>
+        <text x="659" y="94"  fill="#d988ff">var</text><text x="679" y="94" fill="#445566"> commits {</text>
+        <text x="670" y="111" fill="#00ccff">return</text><text x="704" y="111" fill="#ffcc44"> "REFEEDITON"</text><text x="778" y="111" fill="#445566">;</text>
+        <text x="659" y="128" fill="#445566">}</text>
+        <text x="648" y="145" fill="#445566">}</text>
+        <text x="637" y="162" fill="#00ff88">  REFEEDING_ALGORITHM</text>
+        <text x="637" y="179" fill="#ff6688">  &lt;/&gt;</text><text x="659" y="179" fill="#00ccff"> contributions</text><text x="760" y="179" fill="#445566">;</text>
+        <text x="648" y="196" fill="#00ccff">git</text><text x="668" y="196" fill="#ffcc44"> commit</text><text x="708" y="196" fill="#445566">() {</text>
+        <text x="659" y="213" fill="#ff6688">push</text><text x="685" y="213" fill="#445566">(</text><text x="692" y="213" fill="#ffcc44">"ROOT"</text><text x="727" y="213" fill="#445566">);</text>
+        <text x="637" y="230" fill="#445566">  }</text>
+        <rect x="654" y="220" width="6" height="10" fill="#00ff88" class="cursor-blink"/>
+      </g>
+    </g>
+
+    <!-- TITLE BLOCK -->
+    <g text-anchor="end" font-family="'Courier New', monospace">
+      <text class="main-title" x="874" y="330" font-size="60" font-weight="900"
+            letter-spacing="4" fill="#00ff88" filter="url(#titleGlow)">DEV_REX</text>
+      <text x="874" y="352" font-size="12.5" font-weight="700" letter-spacing="3" fill="#eeeeee" opacity="0.88">BUILDING &amp; CONSUMING CODE</text>
+      <text x="874" y="370" font-size="10.5" letter-spacing="2" fill="#00ccff">GIT COMMIT: REFEEDING_ALGORITHM</text>
+    </g>
+
+    <!-- STATS -->
+    <g font-family="'Courier New', monospace" text-anchor="middle">
+      <g class="stat-1">
+        <text x="698" y="412" font-size="7.5" font-weight="700" letter-spacing="2" fill="#00ccff">REPOSITORY</text>
+        <text x="698" y="433" font-size="18"  font-weight="900" fill="#00ff88" filter="url(#statGlow)">47</text>
+      </g>
+      <g class="stat-2">
+        <text x="776" y="412" font-size="7.5" font-weight="700" letter-spacing="2" fill="#00ccff">COMMITS</text>
+        <text x="776" y="433" font-size="18"  font-weight="900" fill="#00ff88" filter="url(#statGlow)">1200</text>
+      </g>
+      <g class="stat-3">
+        <text x="856" y="412" font-size="7.5" font-weight="700" letter-spacing="2" fill="#00ccff">CONTRIBUTIONS</text>
+        <text x="856" y="433" font-size="18"  font-weight="900" fill="#00ff88" filter="url(#statGlow)">365+</text>
+      </g>
+    </g>
+
+    <!-- SCANLINE -->
+    <rect class="scanline" x="0" y="0" width="900" height="2" fill="url(#scanGrad)" opacity="0.35"/>
+
+    <!-- CORNER DECORATIONS -->
+    <path d="M8,28 L8,8 L28,8"           stroke="#00ff88" stroke-width="2" fill="none"/>
+    <path d="M872,8 L892,8 L892,28"      stroke="#00ff88" stroke-width="2" fill="none"/>
+    <path d="M8,422 L8,442 L28,442"      stroke="#00ff88" stroke-width="2" fill="none"/>
+    <path d="M872,442 L892,442 L892,422" stroke="#00ff88" stroke-width="2" fill="none"/>
+
+    <!-- BORDER -->
+    <rect x="1" y="1" width="898" height="448" rx="14" ry="14" fill="none" stroke="#00ff88" stroke-width="2"/>
+
+  </g>
+</svg>
