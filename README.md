@@ -1,4 +1,4 @@
-# Hello 👋, I'm Yury Oropeza
+![Header](./github-header-image.png)
 ### Tech Creator
 
 Developer passionate, AI whisperer & Technical Visionary
