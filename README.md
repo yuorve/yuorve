@@ -48,7 +48,7 @@ Developer passionate, AI whisperer & Technical Visionary
 ## GitHub Activity
 
 <p align="center">
-![Banner](./dev_rex_banner.gif)
+<img src="dev_rex_banner.gif"/>
 </p>
 
 <!--
