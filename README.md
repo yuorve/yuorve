@@ -65,7 +65,17 @@ The system explores job sources and local business opportunities, extracts relev
 
 **Technologies & concepts**
 
-`Python` · `AI Agents` · `LLMs` · `Automation` · `APIs` · `Web Data` · `Semantic Matching` · `Geolocation` · `Telegram`
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI_Agents-FF6F61?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLMs-412991?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Automation-0052CC?style=flat-square&logo=n8n&logoColor=white" />
+  <img src="https://img.shields.io/badge/APIs-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Web_Data-47A248?style=flat-square&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Semantic_Matching-EC407A?style=flat-square&logo=qdrant&logoColor=white" />
+  <img src="https://img.shields.io/badge/Geolocation-2C3E50?style=flat-square&logo=openstreetmap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
+</p>
 
 **Project goal**
 
