@@ -1,71 +1,146 @@
-![Header](./github-header-banner.png)
-### Tech Creator
+![Header](./yuorve-github-header-banner.png)
+# Hi, I'm Yury 👋
 
-Developer passionate, AI whisperer & Technical Visionary
+### AI & Automation · Data · Software Engineering · DevOps
 
-🔭 I’m currently working on: Developing and optimizing management systems and web platforms, focusing on clean architecture and smooth user experiences using modern technologies.
+> **Building practical technology solutions that turn complex problems into useful systems.**
 
-👯 I’m looking to collaborate on: Open Source projects that challenge programming logic, especially those involving automation tools or interactive dashboards.
+I'm a technology professional with **30+ years of experience** across software development, data, infrastructure, information systems and critical operational environments.
 
-🤝 I’m looking for help with: Mastering complex infrastructure deployment and backend security best practices.
+My career has evolved from software development and data processing to information systems, infrastructure and critical systems — and more recently towards **AI-powered applications, intelligent automation, data engineering and AI agents**.
 
-🌱 I’m currently learning: New AI methodologies applied to development and diving deep into advanced frameworks to take my application efficiency to the next level.
+📍 Málaga, Spain  
+🇪🇺 EU Citizen  
+🇩🇰 Exploring the Danish Tech Ecosystem
 
-💬 Ask me about: web, database design, complex bug squashing, and how to structure a project from scratch for scalability.
+---
 
-⚡ Fun fact: I have an almost "detective-like" ability to find that one semicolon or typo that breaks everything when you least expect it.
+## 🚀 What I'm Building
 
-## Contact Me
-<p><a href="https://www.linkedin.com/in/yuryoropeza/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://yuryoropeza.com/" target="_blank"><img src="https://img.shields.io/badge/Website-%23FF7139.svg?&style=flat-square&logo=Firefox&logoColor=white" alt="Website"></a> </p>
+I'm currently focused on projects that combine **software engineering, automation, data and AI** to solve practical problems.
 
-## Skills
+### 🤖 AI & Intelligent Automation
 
-<p align="center">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="windows" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="php" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original.svg" alt="cloudflare" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="arduino" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="slack" width="40" height="40"/>&nbsp;
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="jira" width="40" height="40"/>&nbsp;
-</p>
+- AI agents and LLM applications
+- Intelligent workflows and automation
+- Local-first AI experimentation
+- AI-assisted software engineering
+- APIs and system integration
 
-## GitHub Stats
+### 📊 Data & Analytics
 
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yuorve&theme=default" alt="GitHub Streak" />
-</p>
+- Data engineering
+- Python & SQL
+- Data processing and transformation
+- Analytics and visualization
+- Data-driven decision systems
 
-## GitHub Activity
+### ⚙️ Software & Infrastructure
 
-<p align="center">
-<img src="dev_rex_banner.gif"/>
-</p>
+- Software architecture
+- REST APIs
+- Docker & Kubernetes
+- Linux
+- CI/CD
+- Databases
+- Cloud and self-hosted infrastructure
 
-<!--
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yuorve&radius=16&theme=react&area=true&order=5" height="300" alt="activity-graph" />
+---
 
-## Hi there 👋
+# ⭐ Featured Projects
 
-**yuorve/yuorve** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🇩🇰 SeekerIA
 
-Here are some ideas to get you started:
+### AI-powered job discovery and matching for the Danish tech market
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**SeekerIA** is an autonomous AI agent designed to transform job searching into a data and intelligence problem.
+
+Instead of simply searching for keywords, it combines multiple signals to discover, understand and evaluate technical opportunities.
+
+### Pipeline
+
+`Discover → Extract → Understand → Match → Rank → Notify`
+
+The system explores job sources and local business opportunities, extracts relevant information, evaluates technical requirements and location constraints, and delivers personalized opportunities.
+
+**Technologies & concepts**
+
+`Python` · `AI Agents` · `LLMs` · `Automation` · `APIs` · `Web Data` · `Semantic Matching` · `Geolocation` · `Telegram`
+
+**Project goal**
+
+> Turn thousands of job listings into a smaller number of meaningful opportunities.
+
+---
+
+## 📊 Danish Job Market Analytics
+
+### Data Engineering + Analytics + AI
+
+A portfolio project focused on understanding the Danish technology job market through data.
+
+The project explores the complete pipeline:
+
+`Sources → Ingestion → Cleaning → Transformation → SQL → Analytics → AI → Dashboard`
+
+It is designed to demonstrate practical skills in:
+
+- Data ingestion and ETL
+- Data quality and validation
+- Python & Pandas
+- SQL
+- Data modelling
+- Technology and skill analysis
+- Geographic analysis
+- Language requirements
+- Seniority classification
+- AI-assisted job classification
+- Interactive analytics
+
+The long-term architecture is designed to be transferable to platforms such as **Microsoft Fabric and Databricks**.
+
+---
+
+## 🧩 mosaiko
+
+### Co-Founder & CTO
+
+mosaiko is a product-oriented project where I work on the technical side of the platform.
+
+My responsibilities include:
+
+- Product architecture
+- Backend and database design
+- Infrastructure
+- Docker
+- CI/CD
+- AI integration
+- Technical requirements
+- Performance and reliability
+
+The project combines product development with practical software engineering and infrastructure decisions.
+
+---
+
+# 🏗️ How I Like to Build
+
+I enjoy working across the entire path from **problem → architecture → implementation → deployment**.
+
+```text
+Problem
+   ↓
+Requirements
+   ↓
+Architecture
+   ↓
+Data & APIs
+   ↓
+Software
+   ↓
+Automation / AI
+   ↓
+Testing
+   ↓
+Deployment
+   ↓
+Monitoring & Improvement
