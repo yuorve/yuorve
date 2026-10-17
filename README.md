@@ -47,23 +47,7 @@ I'm currently focused on projects that combine **software engineering, automatio
 
 ---
 
-# ⭐ Featured Projects
-
-## 🇩🇰 SeekerIA
-
-### AI-powered job discovery and matching for the Danish tech market
-
-**SeekerIA** is an autonomous AI agent designed to transform job searching into a data and intelligence problem.
-
-Instead of simply searching for keywords, it combines multiple signals to discover, understand and evaluate technical opportunities.
-
-### Pipeline
-
-`Discover → Extract → Understand → Match → Rank → Notify`
-
-The system explores job sources and local business opportunities, extracts relevant information, evaluates technical requirements and location constraints, and delivers personalized opportunities.
-
-**Technologies & concepts**
+# ⭐ Technologies & concepts
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -76,59 +60,6 @@ The system explores job sources and local business opportunities, extracts relev
   <img src="https://img.shields.io/badge/Geolocation-2C3E50?style=flat-square&logo=openstreetmap&logoColor=white" />
   <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
 </p>
-
-**Project goal**
-
-> Turn thousands of job listings into a smaller number of meaningful opportunities.
-
----
-
-## 📊 Danish Job Market Analytics
-
-### Data Engineering + Analytics + AI
-
-A portfolio project focused on understanding the Danish technology job market through data.
-
-The project explores the complete pipeline:
-
-`Sources → Ingestion → Cleaning → Transformation → SQL → Analytics → AI → Dashboard`
-
-It is designed to demonstrate practical skills in:
-
-- Data ingestion and ETL
-- Data quality and validation
-- Python & Pandas
-- SQL
-- Data modelling
-- Technology and skill analysis
-- Geographic analysis
-- Language requirements
-- Seniority classification
-- AI-assisted job classification
-- Interactive analytics
-
-The long-term architecture is designed to be transferable to platforms such as **Microsoft Fabric and Databricks**.
-
----
-
-## 🧩 mosaiko
-
-### Co-Founder & CTO
-
-mosaiko is a product-oriented project where I work on the technical side of the platform.
-
-My responsibilities include:
-
-- Product architecture
-- Backend and database design
-- Infrastructure
-- Docker
-- CI/CD
-- AI integration
-- Technical requirements
-- Performance and reliability
-
-The project combines product development with practical software engineering and infrastructure decisions.
 
 ---
 
@@ -154,3 +85,7 @@ Testing
 Deployment
    ↓
 Monitoring & Improvement
+
+## 🔗 Connect
+
+[LinkedIn](https://www.linkedin.com/in/yuryoropeza/) · [Website](https://www.yuryoropeza.com/)
