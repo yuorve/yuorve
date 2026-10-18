@@ -20,7 +20,6 @@ My career has evolved from software development and data processing to informati
 I'm currently focused on projects that combine **software engineering, automation, data and AI** to solve practical problems.
 
 ### 🤖 AI & Intelligent Automation
-
 - AI agents and LLM applications
 - Intelligent workflows and automation
 - Local-first AI experimentation
@@ -28,7 +27,6 @@ I'm currently focused on projects that combine **software engineering, automatio
 - APIs and system integration
 
 ### 📊 Data & Analytics
-
 - Data engineering
 - Python & SQL
 - Data processing and transformation
@@ -36,7 +34,6 @@ I'm currently focused on projects that combine **software engineering, automatio
 - Data-driven decision systems
 
 ### ⚙️ Software & Infrastructure
-
 - Software architecture
 - REST APIs
 - Docker & Kubernetes
@@ -47,7 +44,7 @@ I'm currently focused on projects that combine **software engineering, automatio
 
 ---
 
-# ⭐ Technologies & concepts
+## ⭐ Technologies & concepts
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -63,7 +60,7 @@ I'm currently focused on projects that combine **software engineering, automatio
 
 ---
 
-# 🏗️ How I Like to Build
+## 🏗️ How I Like to Build
 
 I enjoy working across the entire path from **problem → architecture → implementation → deployment**.
 
@@ -85,7 +82,10 @@ Testing
 Deployment
    ↓
 Monitoring & Improvement
+```
+
+---
 
 ## 🔗 Connect
 
-[LinkedIn](https://www.linkedin.com/in/yuryoropeza/) · [Website](https://www.yuryoropeza.com/)
+[LinkedIn](https://www.linkedin.com/in/yuryoropeza/) · [Website](https://www.yuryoropeza.com/) · [Email](mailto:yuryoropeza@hotmail.com)
